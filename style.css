@@ -1,0 +1,90 @@
+/* General Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #2a9d8f;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+}
+
+/* Form Section */
+.form-container, .balance-container {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.form-container:hover, .balance-container:hover {
+    transform: scale(1.05);
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #2a9d8f;
+    color: #fff;
+    border: none;
+    padding: 10px 25px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #21867a;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #264653;
+    color: #fff;
+}
+
+#balanceResult {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #2a9d8f;
+}
